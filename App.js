@@ -1,21 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import SignInScreen from './screens/SignInScreen';
+import SignUpScreen from './screens/SignUpScreen';
+import HomeScreen from './screens/HomeScreen';
+import ChatDetail from './screens/ChatDetail';
+import EditProfileScreen from './screens/EditProfileScreen';
+import ChangePasswordScreen from './screens/ChangePasswordScreen';
+import { SocketProvider } from './screens/SocketProvider';
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SocketProvider>
+      <NavigationContainer>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="SignIn" component={SignInScreen} />
+          <Stack.Screen name="SignUp" component={SignUpScreen} />
+          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="ChatDetail" component={ChatDetail} />
+          <Stack.Screen name="EditProfileScreen" component={EditProfileScreen} />
+          <Stack.Screen name="ChangePasswordScreen" component={ChangePasswordScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </SocketProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
