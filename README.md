@@ -8,17 +8,10 @@ GitHub: [@omar-rayyan](https://github.com/omar-rayyan)
 LinkedIn: [Omar Rayyan](https://www.linkedin.com/in/omar-r-rayyan/)
 
 ## Features
-- **User Registration & Authentication** (Patients & Doctors)
-- **Doctor Verification** (Admin approval required)
-- **Book Appointments** (Schedule consultations with doctors)
-- **Live Chat** (Patients and doctors can communicate in real-time)
-- **Admin Panel** (Manage doctor approvals and system monitoring)
-- **User Panel & Profile Edit** (Manage user profiles and settings)
-- **Documents Uploading and Sharing** (Upload and share medical documents)
-- **Manage Doctors' Appointments** (Doctors can manage their appointments)
-- **Manage & Approve Doctors and Patients** (Admin can manage and approve users)
-- **See Medical History for the Patients** (Doctors can view patients' medical history)
-- **AI Medical Assistance** (AI-powered medical assistance for users)
+- **User Registration & Authentication**
+- **Live Messaging with Realtime Message Updates & Read Receipts**
+- **Notifications for Messages**
+- **Profile Customization & Password Change**
 
 ---
 
