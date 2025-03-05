@@ -29,7 +29,7 @@ LinkedIn: [Omar Rayyan](https://www.linkedin.com/in/omar-r-rayyan/)
 
 ### Authentication
 - **JWT (JSON Web Tokens)**
-- **bcrypt.js**
+- **Bcrypt**
 
 ### Database
 - **SQLITE** (for development only)
