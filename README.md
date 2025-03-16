@@ -2,7 +2,7 @@
 
 SecureTalk is a mobile applications that connects users together. Users can go on the app, register an account and start chatting with other users. Live updates for messages and read receipts are also provided by using WebSockets.
 
-## Authors
+## Author
 Omar Rayyan - Full Stack Developer  
 GitHub: [@omar-rayyan](https://github.com/omar-rayyan)  
 LinkedIn: [Omar Rayyan](https://www.linkedin.com/in/omar-r-rayyan/)
