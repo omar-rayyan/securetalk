@@ -23,7 +23,7 @@ LinkedIn: [Omar Rayyan](https://www.linkedin.com/in/omar-r-rayyan/)
 - **Cloudinary**
 
 ### Frontend
-- **React**
+- **React Native**
 - **WebSockets**
 - **Expo**
 
